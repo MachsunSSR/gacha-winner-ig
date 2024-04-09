@@ -7,7 +7,7 @@ import requests
 
 # Load the data
 # Use link to the raw data in github https://github.com/MachsunSSR/gacha-winner-ig/blob/master/comment_filtered.csv
-df = pd.read_csv('https://raw.githubusercontent.com/MachsunSSR/gacha-winner-ig/master/comment_filtered.csv')
+df = pd.read_csv('https://github.com/MachsunSSR/gacha-winner-ig/blob/master/new_comment_filtered.csv')
 # df = pd.read_csv('comment_filtered.csv')
 
 # Create random comment picker instagram that contain a button, when the button is clicked will randomly select a comment from the data and display it on the screen with the photo profile
